@@ -61,15 +61,15 @@ if (isset($_POST['kedzo']) AND  isset($_POST['veg'])) {
 // time limit
 set_time_limit(499920);
 //fajl megnyitasa
-$filehandle = fopen("sqlwowheadmultiripper/creature_faction.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle2= fopen("sqlwowheadmultiripper/creature_level.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle3= fopen("sqlwowheadmultiripper/creature_hp.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle4= fopen("sqlwowheadmultiripper/creature_mana.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle5= fopen("sqlwowheadmultiripper/creature_display.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle6= fopen("sqlwowheadmultiripper/creature_dropmoney.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle7= fopen("sqlwowheadmultiripper/classification.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle8= fopen("sqlwowheadmultiripper/pet.sql", 'a') or die("Я не могу открыть файл.");
-$filehandle9= fopen("sqlwowheadmultiripper/1entry.sql", 'a') or die("Я не могу открыть файл.");
+$filehandle = fopen("sqlwowheadmultiripper/creature_faction.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle2= fopen("sqlwowheadmultiripper/creature_level.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle3= fopen("sqlwowheadmultiripper/creature_hp.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle4= fopen("sqlwowheadmultiripper/creature_mana.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle5= fopen("sqlwowheadmultiripper/creature_display.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle6= fopen("sqlwowheadmultiripper/creature_dropmoney.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle7= fopen("sqlwowheadmultiripper/classification.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle8= fopen("sqlwowheadmultiripper/pet.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
+$filehandle9= fopen("sqlwowheadmultiripper/1entry.sql", 'a') or die("РЇ РЅРµ РјРѕРіСѓ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р».");
 for ($i=$_POST['kedzo'];$i<=$_POST['veg'];$i++)
 {
  $link = 'http://www.wowhead.com/npc=' . $i;
@@ -306,7 +306,7 @@ fclose($filehandle5);fclose($filehandle6);
 fclose($filehandle7);fclose($filehandle8);
 fclose($filehandle9);
 
-print"<center><h1> <a href='wowhead_multiripper.php'>Назад</a></h1> </center>";
+print"<center><h1> <a href='wowhead_multiripper.php'>РќР°Р·Р°Рґ</a></h1> </center>";
 }
 
 ?>
